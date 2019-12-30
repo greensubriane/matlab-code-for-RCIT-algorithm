@@ -1,0 +1,2 @@
+﻿
+select cluster_stage.complex, celldatabase.segmentarea, celldatabase.cumulativeprecipitation, celldatabase.maximumprecipitation, celldatabase.meanprecipitation, celldatabase.eccentricity, celldatabase.convectivepixels from cluster_stage, celldatabase where celldatabase.clusterid = cluster_stage.complex

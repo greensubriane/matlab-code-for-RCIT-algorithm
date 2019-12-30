@@ -1,0 +1,2 @@
+﻿select celltracking_070526_19dbz_1.successor_x, celltracking_070526_19dbz_1.successor_y, cell_070526_19dbz.cellid from celltracking_070526_19dbz_1, cell_070526_19dbz
+where (celltracking_070526_19dbz_1.successor_x = cell_070526_19dbz.center_x and celltracking_070526_19dbz_1.successor_y = cell_070526_19dbz.center_y) 

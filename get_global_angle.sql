@@ -1,0 +1,1 @@
+﻿select celltracking_070526.time, globalangle.angle from celltracking_070526, globalangle where (celltracking_070526.time like globalangle.times)

@@ -1,0 +1,1 @@
+﻿select startelement_070526.id, time_070526.timeid, time_070526.center_x, time_070526.center_y from startelement_070526, time_070526 where startelement_070526.id = time_070526.clusterid
